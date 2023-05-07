@@ -39,11 +39,10 @@ else {
     console.log("No aplica a leasing ni credito bancario")
 }
 
-
-
-/* for(articuloConIva(precioArticulo1, ivaArticulo1, iva105, iva21);articuloConIva(precioArticulo1, ivaArticulo1, iva105, iva21) < 50000;  )
-
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
+for (let cantidad = 0; cantidad <= 10; cantidad++) {
+    if(cantidad === 10)
+    break
+    console.log (`La cantidad ofertada es ${cantidad}`)
     
-} */
+}
+
